@@ -6,6 +6,14 @@ main {
     margin-top: 50px;
 
 }
+.mainpicture {
+    position: relative;
+    width: 418px;
+    padding-right: 20px;
+}
+.h2 {
+    padding-left: 100px;
+}
 .icon {
     width: 40px;
     margin: 30px;
