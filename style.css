@@ -6,3 +6,11 @@ main {
     margin-top: 50px;
 
 }
+.profilepicture {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 150px;
+    position: absolute;
+    padding-left: 60px;
+    border-radius: 100px 100px 100px 100px;
+}
