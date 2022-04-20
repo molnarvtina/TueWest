@@ -14,10 +14,12 @@ main {
 .h2 {
     padding-left: 100px;
 }
+body {
+    background-color: #CFCE99;
+}
 .icon {
     width: 40px;
     margin: 30px;
     margin-top: 80px;
     justify-content: center;
-
 }
