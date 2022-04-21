@@ -40,8 +40,19 @@ section.icons{
     margin: 0 auto;
     height: auto;
 }
+.playOnHover{
+    background-image: url(img/Harbour-slices_03.gif);
+    background-size: cover;
+    cursor: pointer;
+}
+.playOnHover :hover{
+    cursor: pointer;
+    background-image: url(img/gif3.gif);
+    z-index: 3;
+}
+
 @media screen and (max-width: 900px) {
-    .slice1, .slice4, .slice5, .slice8 {
+    .slice1, .slice4, .slice5, .slice8, .slice3, .gif5 {
        display: none;
     }
     div img{
@@ -54,3 +65,13 @@ section.icons{
         font-size: 45px;
     }
   }
+  @media screen and (min-width: 900px) {
+    .gif3, .gif5 {
+       display: none;
+    }
+    .slice3:hover{
+        cursor: pointer;
+        background-image: url(img/gif3.gif);
+        z-index: 3;
+    }
+}
