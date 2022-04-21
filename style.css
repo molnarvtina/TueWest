@@ -17,3 +17,11 @@ div img {
     width: 350px;
     margin: 10px 10px 10px 10px
 }
+.icons{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+section.icons{
+    
+}
