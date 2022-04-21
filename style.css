@@ -8,13 +8,24 @@
     color: #fff;
 }
 
+h1 {
+    font-size: 55px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 80px;
+    margin: 40px auto 10px 130px;
+}
+
 div {
    display: flex;
    justify-content: center;
 }
 div img {
     max-width: 100%;
-    width: 350px;
+    width: 250px;
     margin: 10px 10px 10px 10px
 }
 .icons{
