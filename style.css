@@ -8,35 +8,62 @@
     color: #fff;
 }
 
+nav{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav div {
+    display: flex;
+    flex-basis: calc(50% - 40px); 
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav div div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title {
+    justify-content: right;
+}
+
+.artist {
+    justify-content: right;
+}
+
 h1 {
     font-size: 55px;
-    text-align: center;
+
 
 }
 
 h2 {
     font-size: 80px;
-    margin: 40px auto 10px 130px;
+
 }
 
-div {
+.window {
    display: flex;
    justify-content: center;
 }
-div img {
+.window  img {
     max-width: 100%;
     width: 250px;
     margin: 10px 10px 10px 10px
 }
 .icons{
     display: flex;
-    width: 600px;
+    width: 400px;
     justify-content: space-between;
-    padding: 10px;
+    
 }
-section.icons{
-    margin:0 auto;
-}
+
 @media screen and (max-width: 900px) {
     .slice1, .slice4, .slice5, .slice8 {
        display: none;
