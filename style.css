@@ -68,4 +68,13 @@ h2 {
     .slice1, .slice4, .slice5, .slice8 {
        display: none;
     }
+    div img{
+        width: 200px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 60px;
+    }
   }
