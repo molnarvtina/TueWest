@@ -9,14 +9,16 @@
 }
 
 h1 {
+    padding: 18px;
     font-size: 55px;
     text-align: center;
-
 }
 
 h2 {
+    margin-top: 20px;
+    padding: 18px;
     font-size: 80px;
-    margin: 40px auto 10px 130px;
+    text-align: center;
 }
 
 div {
@@ -30,24 +32,25 @@ div img {
 }
 .icons{
     display: flex;
-    width: 400px;
+    width: 322px;
     justify-content: space-between;
-    padding: 30px;
+    padding: 18px;
 }
 section.icons{
-    margin:0 auto;
+    margin: 0 auto;
+    height: auto;
 }
 @media screen and (max-width: 900px) {
     .slice1, .slice4, .slice5, .slice8 {
        display: none;
     }
     div img{
-        width: 200px;
+        width: 170px;
     }
     h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     h2{
-        font-size: 60px;
+        font-size: 45px;
     }
   }
