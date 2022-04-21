@@ -36,3 +36,8 @@ div img {
 section.icons{
     margin:0 auto;
 }
+@media screen and (max-width: 900px) {
+    section.img {
+      scale: 0.6;
+    }
+  }
