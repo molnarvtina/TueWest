@@ -32,12 +32,13 @@ div img {
     display: flex;
     width: 600px;
     justify-content: space-between;
+    padding: 10px;
 }
 section.icons{
     margin:0 auto;
 }
 @media screen and (max-width: 900px) {
-    section.img {
-      scale: 0.6;
+    .slice1, .slice4, .slice5, .slice8 {
+       display: none;
     }
   }
