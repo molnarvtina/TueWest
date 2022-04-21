@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>We took a bite</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <h2>WE TOOK A BITE</h2>
@@ -14,20 +15,30 @@
     <div>
         <img src="img/Harbour-slices_01.jpg" class="slice1" alt="slice1">
         <img src="img/Harbour-slices_02.jpg" class="slice2" alt="slice2">
-        <img src="img/Harbour-slices_03.gif" class="slice3" alt="slice3">
-        <div class="playOnHover"><img src="img/gif3.gif" class="gif3" alt="gif3"></div>
+        <img src="img/gif3.gif" class="slice3" alt="slice3">
         <img src="img/Harbour-slices_04.jpg" class="slice4" alt="slice4">
     </div>
-
+           
         <!-- end first row -->
     <div>
-        <img src="img/Harbour-slices_05.gif" class="slice5" alt="slice5">
         <img src="img/gif5.gif" class="gif5" alt="gif5">
         <img src="img/Harbour-slices_06.jpg" class="slice6" alt="slice6">
         <img src="img/Harbour-slices_07.jpg" class="slice7" alt="slice7">
         <img src="img/Harbour-slices_08.jpg" class="slice8" alt="slice8">
     </div>
 
+    <button id="open">
+        <img src="icons/play.jpg" alt="">
+        </button>
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <video src="Final 1.mp4" controls></video>
+            </div>
+
+            <button id="close">
+                <img src="icons/cross.png" alt="play" width="40px" >
+            </button>
+        </div>
     <!-- end second row -->
 
     <!-- icons-->
