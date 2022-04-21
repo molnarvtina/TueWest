@@ -30,9 +30,9 @@ div img {
 }
 .icons{
     display: flex;
-    width: 600px;
+    width: 400px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px;
 }
 section.icons{
     margin:0 auto;
@@ -40,5 +40,14 @@ section.icons{
 @media screen and (max-width: 900px) {
     .slice1, .slice4, .slice5, .slice8 {
        display: none;
+    }
+    div img{
+        width: 200px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 60px;
     }
   }
