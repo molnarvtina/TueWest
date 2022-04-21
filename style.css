@@ -1,22 +1,4 @@
-main {
-    font-family: 'Asap';
-    font-size: 20px;
-    font-weight: 300;
-    background-color: #CFCE99;
-    margin-top: 50px;
 
-}
-.mainpicture {
-    position: relative;
-    width: 418px;
-    padding-right: 20px;
-}
-.h2 {
-    padding-left: 100px;
-}
-body {
-    background-color: #CFCE99;
-}
 .icon {
     width: 40px;
     margin: 30px;
